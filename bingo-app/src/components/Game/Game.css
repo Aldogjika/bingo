@@ -1,0 +1,48 @@
+.game {
+  margin-top: 50px;
+}
+
+.game__selectedNumbers_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.game__selectedNumbers_container > p {
+  color: #fff;
+  font-size: 23px;
+  font-weight: 700;
+  margin-right: 21px;
+}
+
+.game__selectedNumbers_container > p > span {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.game__numbers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.game__selectedNumbers {
+  background: #3d35b4;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game__selectedNumbers_full {
+  background-color: #fff;
+  color: #645ee4;
+  font-size: 21px;
+  font-weight: 500;
+}

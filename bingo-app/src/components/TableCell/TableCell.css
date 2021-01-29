@@ -1,0 +1,60 @@
+.tableCell {
+  background: #f5f5fc;
+  margin: 5px;
+  color: #56588e;
+  font-weight: bold;
+  font-size: 0.9em;
+  line-height: 16px;
+  text-align: center;
+  flex: 1 0 auto;
+  height: auto;
+  border-radius: 28%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 105px;
+  padding: 10px;
+  position: relative;
+}
+
+.tableCell__bingo {
+  background: #8442ec;
+  color: #f5f5fc;
+  pointer-events: none;
+}
+
+.tableCell__clicked {
+  text-decoration: line-through;
+}
+
+.tableCell__clicked span {
+  background-color: #3d35b4;
+  color: #f5f5fc;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.tableCell span {
+  position: absolute;
+  top: 8px;
+  right: 31px;
+}
+
+.tableCell:before {
+  content: "";
+  float: left;
+  padding-top: 100%;
+}
+
+@media only screen and (max-width: 722px) {
+  .tableCell {
+    font-size: 0.45em;
+    line-height: 10px;
+    width: 36px;
+    padding: 8px;
+  }
+
+  .tableCell span {
+    display: none;
+  }
+}
