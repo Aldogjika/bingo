@@ -17,9 +17,9 @@ function Table() {
         <div key={index} className="table__row">
           {dataChunked?.map((data) => (
             <TableCell
-              key={data.id}
+              key={data.index}
               cellValue={cellValue}
-              id={data.id}
+              id={data.index}
               data={data.text}
             />
           ))}
